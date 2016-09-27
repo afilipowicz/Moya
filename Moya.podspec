@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Moya"
-  s.version      = "6.5.0"
+  s.version      = "6.5.1"
   s.summary      = "Network abstraction layer written in Swift"
   s.description  = <<-EOS
   Moya abstracts network commands using Swift Generics to provide developers
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
-  s.source       = { :git => "https://github.com/Moya/Moya.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/afilipowicz/Moya.git", :tag => s.version }
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|
